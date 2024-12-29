@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="author" content="AvBoX">
+<meta name="description" content="Huiswerk bij les 25 v.d. NHA cursus web design">
+<meta name="keywords" content="NHA, web design, HTML, les 25, huiswerk">
+
+<title>Huiswerk - hoofdstuk 25</title>
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
+
+<script>
+$(function() {
+  $( "#jqyTabs" ).tabs();
+});
+</script>
+
+<style>
+header, footer {
+  clear: both;
+  display: flex;            
+  color: black;
+  width: 100%;
+  justify-content: center;  
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Hoofdstuk 25 - mijn huiswerk</h1>
+</header>
+
+<main>
+
+<div id="jqyTabs">
+  <ul>
+    <li><a href="#jqyTab-1">Tab 1</a></li>
+    <li><a href="#jqyTab-2">Tab 2</a></li>
+    <li><a href="#jqyTab-3">Tab 3</a></li>
+  </ul>
+  <div id="jqyTab-1">
+    <p>Dit is de eerste tab, deze zou automatisch open moeten gaan, en de hele tab zou zichtbaar moeten zijn. U kunt de tabs bovenaan aanklikken, nu dus Tab 2 of Tab 3, waarmee u de onderliggende gegevens  van de andere tabs zichtbaar kan maken.</p>
+  </div>  
+  <div id="jqyTab-2">
+    <p>Dit is de tweede tab, wanneer deze wordt geopend sluit een eventueel andere geopende tab, zo werkt dat met tabs. En elke tab bevat zijn eigen inhoud, in dit geval een eigen html paragraaf. Maar dat kunnen er meerdere zijn, of andere html onderdelen. Zie daarvoor de 3e tab.</p>
+  </div>
+  <div id="jqyTab-3">
+    <h4>En een kopje onder een tab is ook mogelijk</h4> 
+    <p>Dit is paragraaf 1 van de 3e tab.</p>
+    <p>Zoals we in de 2e tab konden zien, kunnen er meerdere paragrafen per tab worden gebruikt.</p>
+	<p>Dit is dan weer de laatste paragraaf voor de tab, thanks folks...</p>
+  </div>  
+
+</div>
+
+<noscript>
+Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+</noscript>
+
+</main>
+
+<footer>
+<br>
+<h4>-- Copyright, left or center, 2024 .. 2024, by AvBoX --</h4>
+</footer>
+
+</body>
+</html>
